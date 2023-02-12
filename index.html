@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <section class="grocery-container">
+
+        <h2 class="heading-secondary">Grocery List</h2>
+
+        <form id="grocery-form">
+            <!-- input -->
+            <input type="text" name="input" id="grocery-input">
+            <!-- label -->
+            <label for="grocery-input">Input your grocery item up above</label>
+            <!-- btn -->
+            <input type="submit" value="Enter item" class="btn">
+        </form>
+
+        <h3 class="heading-terciary">Filter your groceries</h3>
+
+        <div id="filter">
+            <input type="text" name="input" id="filter-input">
+            <label for="filter-input">Search for your groceries</label>
+        </div>
+
+        <ul id="list">
+            <!-- <li class="list-item">Hello world<span>Delete</span></li> -->
+        </ul>
+
+        <div id="clear" class="btn btn-clear">Clear all</div>
+
+    </section>
+
+    <script src="/app.js"></script>
+</body>
+</html>
