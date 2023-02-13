@@ -83,7 +83,7 @@ h3{
 /* input styles */
 #grocery-form{
     display: grid;
-    margin: 4rem 0;
+    margin: 4rem 0 0 0;
 }
 
 input[type=text] {
@@ -127,6 +127,13 @@ input[type=submit]{
 #list .list-item{
     display: flex;
     justify-content: space-between;
+    cursor: pointer;
+    position: relative;
+    transition: color .3s ease-in-out;
+}
+
+#list .list-item.edit-mode{
+    color: var(--gray);
 }
 
 #list .list-item span {

@@ -1,3 +1,3 @@
 # Shopping List
 
-Simple shopping list app for brushing up on my vanilla skills.
+A simple shopping list app for adding, updating and deleting grocery items.
