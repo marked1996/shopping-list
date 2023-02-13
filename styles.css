@@ -31,6 +31,8 @@ body {
     color: var(--gray);
     font-size: clamp(28px, 2vw, 3rem);
     transition: color .3s ease-in-out;
+    text-align: start;
+    padding-inline: 0!important;
 }
 
 .btn:hover {
@@ -38,7 +40,9 @@ body {
 }
 
 .btn-clear{
-    text-align: center;
+    /* text-align: center; */
+    /* padding-inline: 0!important; */
+    margin-top: 2rem;
 }
 
 /* HEADING STYLES */
